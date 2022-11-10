@@ -1,0 +1,80 @@
+:root {
+  --red: #ff7588;
+  --gray: #c3c3c3;
+  --blue: #00aeef;
+  --white: #ffffff;
+  --green: #16d39a;
+  --black: #000000;
+  --orange: #f78800;
+  --lightRed: #ffedf0;
+  --darkBlue: #2f3854;
+  --lightGray: #F1F1F1;
+  --lightBlue: #effbff;
+  --lightBlack: #7d7d7d;
+  --lightGreen: #d6fff3;
+  --lightOrange: #fff3e4;
+  --lightDarkBlue: #f1f1f1;
+  --superLightBlue: #f4fcff;
+  --skeletonsLightBlue: #f4fcff5e;
+  --seeThroughLightBlue: #f4fcffdb;
+  --strongRed: rgba(255, 0, 0, 0.8);
+  
+  --speed: 500ms;
+  --border-radius: 8px;
+
+  --font-size: 14px !important;
+  --font-size-medium: 12px !important;
+
+  --toastify-toast-width: auto !important; 
+  --toastify-toast-min-height: 40px !important;
+}
+
+* {
+  margin: 0;
+  padding: 20;
+  box-sizing: border-box;
+  font-family: "Roboto" !important;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+/* #root {
+  margin: auto;
+} */
+
+
+.react-selectcomponent{
+  /* background: #00aeef; */
+width: 40%;
+border-radius: 5px;
+}
+
+.css-6j8wv5-Input{
+ /* background: #16d39a; */
+}
+.css-319lph-ValueContainer{
+  background: #F8F8F8;
+  height: 50px;
+  border-radius: 5px 0 5px 5px;
+}
+.css-1okebmr-indicatorSeparator{
+  display: none;
+}
+.css-1hb7zxy-IndicatorsContainer{
+background: #F8F8F8;
+color: #6D6D6D;
+border-radius: 0 5px 5px 0;
+
+}
+.css-tj5bde-Svg{
+  color: #6D6D6D;
+   width: 30px;
+   height: 30px; 
+}
+.css-15e6m3o-control{
+  /* height: 40px; */
+  /* border-radius: 5px; */
+}
